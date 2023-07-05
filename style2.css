@@ -1,0 +1,33 @@
+
+
+.album{
+    
+	width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: antiquewhite;
+   
+}
+
+.album img{
+
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.album :hover{
+    transform: scale(1.1);
+}
+
+.colum {
+flex: 25%;
+padding: 0px;
+
+}
+
+.colum img{
+    margin-top: 5px;
+
+}
